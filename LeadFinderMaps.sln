@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36212.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadFinder2GIS", "LeadFinderMaps\LeadFinder2GIS.csproj", "{D047D8F9-C747-4ABD-BA31-A2C88491D14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadFinder2GISTest", "LeadFinder2GISTest\LeadFinder2GISTest.csproj", "{6CAB2735-965E-4FB6-B842-E8F7927A2BAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D047D8F9-C747-4ABD-BA31-A2C88491D14E} = {D047D8F9-C747-4ABD-BA31-A2C88491D14E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D047D8F9-C747-4ABD-BA31-A2C88491D14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D047D8F9-C747-4ABD-BA31-A2C88491D14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D047D8F9-C747-4ABD-BA31-A2C88491D14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D047D8F9-C747-4ABD-BA31-A2C88491D14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CAB2735-965E-4FB6-B842-E8F7927A2BAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CAB2735-965E-4FB6-B842-E8F7927A2BAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CAB2735-965E-4FB6-B842-E8F7927A2BAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CAB2735-965E-4FB6-B842-E8F7927A2BAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B01F14-BDB1-4B2F-A151-81F4FEB69B9A}
+	EndGlobalSection
+EndGlobal
